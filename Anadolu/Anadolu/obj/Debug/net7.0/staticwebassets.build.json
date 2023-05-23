@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "vSQ0XUuNvFDklMW9QMf6ND6dt+/B/bb7Aox2l8e0WJQ=",
+  "Source": "Anadolu",
+  "BasePath": "_content/Anadolu",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Anadolu\\wwwroot",
+      "Source": "Anadolu",
+      "ContentRoot": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\",
+      "BasePath": "_content/Anadolu",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\images\\King.jpg",
+      "SourceId": "Anadolu",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\",
+      "BasePath": "_content/Anadolu",
+      "RelativePath": "images/King.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\King.jpg"
+    }
+  ]
+}

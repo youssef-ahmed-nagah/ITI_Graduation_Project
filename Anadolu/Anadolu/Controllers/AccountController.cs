@@ -67,7 +67,7 @@ namespace Anadolu.Controllers
                 IdentityResult result = await userManager.CreateAsync(userModel, userDTO.Password);
                 if (result.Succeeded)
                 {
-                    await userManager.AddToRoleAsync(userModel,userDTO.Role);
+                    await userManager.AddToRoleAsync(userModel,"User");
 
                     return Ok(new { isPassed = true, Data = userModel});
                 }

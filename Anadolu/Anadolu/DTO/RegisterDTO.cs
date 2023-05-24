@@ -21,7 +21,6 @@ namespace Anadolu.DTO
         [Required(ErrorMessage = "The Email Field is required.")]
         public string Email { get; set; }
         public string UserName { get; set; }
-        public string Role { get; set; }
         public IFormFile? File { get; set; }
 
     }
